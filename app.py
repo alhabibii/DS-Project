@@ -237,7 +237,7 @@ def main():
 
     # Menambahkan Gambar
 
-    with open("https://github.com/alhabibii/DS-Project/blob/main/jaya%20jaya%20institute.jpg?", "rb") as image_file:
+    with open("jaya jaya institute.jpg", "rb") as image_file: 
         image_data = base64.b64encode(image_file.read()).decode("utf-8")
 
     st.markdown(
